@@ -1,7 +1,7 @@
 <template lang="pug">
 .home
   img(alt="Vue logo" src="../assets/logo.png")
-  hello-world(msg="Welcome to Your Vue.js App")
+  HelloWorld(msg="Welcome to Your Vue.js App")
 </template>
 
 <script>
@@ -17,5 +17,5 @@ export default {
 
 <style lang="sass">
 img
-  margin-bottom: 0
+  width: 60px
 </style>
